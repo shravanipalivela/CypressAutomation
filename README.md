@@ -15,20 +15,20 @@ Set Up Cypress dashboard services to view results.
 # Advantages
  Its a properly layered framework means every layer has its own functionalities
 
-# Data Layer (fixtures)
+#Data Layer (fixtures)
 	a. Data will be read from fixtures>testdata.json and provide it to the testcases
   b. cypress.json to maintain project config data
   
-# testcases (integration>examples)
+#testcases (integration>examples)
 	a. Main purpose is to perform the tests
 	b. support>commands contains all the reusable functions to be used to write testcases
 	
 			
-# pageObjects layer(integration>pageObjects)
+#pageObjects layer(integration>pageObjects)
     a.The objects(web elements) and related functions(interactions) of a page in one class.
     b.The entire application is divided into different pages with their indivisual page objects and functions.
 	 
-# Test Reports - Cypress dashboard Services gives yoou results and recordings of tests
+#test Reports - Cypress dashboard Services gives you results and recordings of tests
 
 #TODOs
 Integrate tests with jenkins for CICD - pending
