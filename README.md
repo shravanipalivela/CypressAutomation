@@ -30,5 +30,5 @@ Set Up Cypress dashboard services to view results.
 	 
 #test Reports - Cypress dashboard Services gives you results and recordings of tests
 
-#TODOs
+# TODOs
 Integrate tests with jenkins for CICD - pending
